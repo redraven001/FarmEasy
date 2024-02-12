@@ -80,13 +80,15 @@
             android:layout_height="80dp"
             android:textSize="25dp"
             android:text="Adilabad"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Karimnagar"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -98,13 +100,15 @@
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Nalgonda"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Medak"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -116,13 +120,15 @@
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Khammam"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:textSize="23dp"
             android:text="Mahabubnagar"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -134,13 +140,15 @@
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Hyderabad"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Nizamabad"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -152,13 +160,15 @@
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Rangareddy"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:textSize="25dp"
             android:text="Warangal"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="distData"/>
     </LinearLayout>
 
 
