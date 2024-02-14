@@ -1,18 +1,16 @@
 package com.example.farmeasy;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-
 public class MainActivity extends AppCompatActivity {
     private ImageView chat;
     private ImageView weather;
     private ImageView cropdis;
     private ImageView liverates;
+    private ImageView menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         weather = findViewById(R.id.weather);
         cropdis = findViewById(R.id.crop_disease);
         liverates = findViewById(R.id.market_rates);
+        menu=findViewById(R.id.menu);
         chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +45,17 @@ public class MainActivity extends AppCompatActivity {
                 openlive();
             }
         });
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openMenu();
+            }
+        });
+    }
+
+    private void openMenu() {
+        Intent i=new Intent(this,menu.class);
+        startActivity(i);
     }
 
     private void openlive() {

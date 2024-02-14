@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/admin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Your Email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Your Password" />
+    <Button
+        android:id="@+id/lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
