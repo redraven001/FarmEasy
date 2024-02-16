@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         weather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openweather("https://www.yahoo.com/news/weather/india/telangana/hyderabad-29221748/");
+                openweather();
             }
         });
         cropdis.setOnClickListener(new View.OnClickListener() {
@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void openweather(String s) {
-        Uri url=Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW,url));
+    private void openweather() {
+       Intent intent=new Intent(this,weather.class);
+       startActivity(intent);
     }
 
 
