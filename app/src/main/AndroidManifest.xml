@@ -18,9 +18,7 @@
         <activity
             android:name=".data"
             android:exported="false" />
-        <activity
-            android:name=".umrates"
-            android:exported="false" />
+
         <activity
             android:name=".uddata"
             android:exported="false" />

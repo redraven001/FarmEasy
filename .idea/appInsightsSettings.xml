@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.example.farmeasy" />
-                  <option name="mobileSdkAppId" value="1:502253058198:android:ec401b0c165125b050eab7" />
-                  <option name="projectId" value="farmeasy-d7a37" />
-                  <option name="projectNumber" value="502253058198" />
+                  <option name="mobileSdkAppId" value="1:627542764017:android:a4c1781b2c1c0ad59f7c50" />
+                  <option name="projectId" value="farmeasy-83407" />
+                  <option name="projectNumber" value="627542764017" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
