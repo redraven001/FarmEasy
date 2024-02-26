@@ -17,7 +17,6 @@ public class weather extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://www.yahoo.com/news/weather/india/telangana/hyderabad-29221748/");
     }
-
     @Override
     public void onBackPressed() {
         if (webView.canGoBack()) {

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774954441653",
+    "project_id": "farmeasy-80d16",
+    "storage_bucket": "farmeasy-80d16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774954441653:android:caada57b0acf0043e217fc",
+        "android_client_info": {
+          "package_name": "com.example.farmeasy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcqnM58Vn4XGH7P3vjvVkQetHs6ZFAxlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
