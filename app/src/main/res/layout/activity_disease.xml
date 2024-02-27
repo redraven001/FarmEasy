@@ -13,7 +13,7 @@
         android:id="@+id/img"
         android:layout_width="330dp"
         android:layout_height="300dp"
-        android:src="@drawable/img1"
+        android:src="@drawable/rice"
         android:layout_marginBottom="16dp"/>
     <Button
         android:id="@+id/button"
@@ -39,6 +39,6 @@
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="click_here_to_know_more_about_disease"
+        android:text="Click on the disease for more details!!"
         android:layout_marginTop="16dp"/>
 </LinearLayout>
