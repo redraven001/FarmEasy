@@ -36,11 +36,7 @@
         android:layout_margin="22dp"
         android:textSize="20dp"
         android:textStyle="italic"
-<<<<<<< HEAD
         android:text="-> Get District Wise Crop Data"
-=======
-        android:text="->  Get District Wise Crop Data"
->>>>>>> origin/naresh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
