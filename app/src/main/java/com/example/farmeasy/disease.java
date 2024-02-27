@@ -149,7 +149,7 @@ public class disease extends AppCompatActivity {
                     maxPos=i;
                 }
             }
-            String[] classes={"Bacterial leaf blight","Brown spot","Rice blast"};
+            String[] classes={"LeafBlast","Hispa","Healthy","BrownSpot"};
             result.setText(classes[maxPos]);
             result.setOnClickListener(new View.OnClickListener() {
                 @Override
