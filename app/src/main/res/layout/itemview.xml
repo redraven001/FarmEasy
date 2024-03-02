@@ -20,6 +20,8 @@
            android:layout_width="match_parent"
            android:layout_height="100sp"
            tools:text="CropName"
+           android:fontFamily="@font/font1"
+           android:textStyle="bold"
            android:textSize="45sp"
            android:textAlignment="center"
            android:gravity="center"
@@ -29,7 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pesticides"
+        android:textStyle="bold"
         android:textSize="25sp"
+        android:fontFamily="@font/font6"
         android:layout_marginLeft="5sp"
         android:layout_marginTop="5sp"/>
     <TextView
@@ -37,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="List of pesticides"
+        android:fontFamily="@font/font1"
         android:textSize="20sp"
         android:layout_marginLeft="5sp"
         />
@@ -44,6 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fertilizers"
+        android:textStyle="bold"
+        android:fontFamily="@font/font6"
         android:textSize="25sp"
         android:layout_marginLeft="5sp"
         android:layout_marginTop="5sp"/>
@@ -52,6 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="List of fertilizers"
+        android:fontFamily="@font/font1"
         android:textSize="20sp"
         android:layout_marginLeft="5sp"
         />
@@ -59,7 +67,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Irrigation Methods"
+        android:textStyle="bold"
         android:textSize="25sp"
+        android:fontFamily="@font/font6"
         android:layout_marginLeft="5sp"
         android:layout_marginTop="5sp"/>
     <TextView
@@ -68,6 +78,7 @@
         android:layout_height="wrap_content"
         tools:text="List of irrigation methods"
         android:textSize="20sp"
+        android:fontFamily="@font/font1"
         android:layout_marginLeft="5sp"
         />
 <LinearLayout

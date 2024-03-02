@@ -25,16 +25,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:layout_weight="10"
-            android:text="EasyFarm"
+            android:layout_weight="120"
+            android:text="Easy Farm"
+            android:textStyle="bold"
+            android:fontFamily="@font/font5"
             android:textSize="35dp" />
 
-        <ImageView
-            android:id="@+id/menu"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_weight="1"
-            android:src="@drawable/user" />
     </LinearLayout>
 
     <LinearLayout
@@ -77,15 +73,17 @@
         android:orientation="vertical">
         <Button
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:textSize="25dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
             android:text="Adilabad"
+            android:fontFamily="@font/font2"
             android:layout_weight="1"
             android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Karimnagar"
             android:layout_weight="1"
             android:onClick="distData"/>
@@ -97,14 +95,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Nalgonda"
             android:layout_weight="1"
             android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Medak"
             android:layout_weight="1"
             android:onClick="distData"/>
@@ -112,19 +112,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Khammam"
             android:layout_weight="1"
             android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="23dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Mahabubnagar"
             android:layout_weight="1"
             android:onClick="distData"/>
@@ -132,19 +133,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Hyderabad"
             android:layout_weight="1"
             android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Nizamabad"
             android:layout_weight="1"
             android:onClick="distData"/>
@@ -152,19 +154,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:orientation="vertical">
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Rangareddy"
             android:layout_weight="1"
             android:onClick="distData"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:textSize="25dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/font2"
             android:text="Warangal"
             android:layout_weight="1"
             android:onClick="distData"/>

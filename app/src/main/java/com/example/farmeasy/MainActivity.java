@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         weather = findViewById(R.id.weather);
         cropdis = findViewById(R.id.crop_disease);
         liverates = findViewById(R.id.market_rates);
-        menu=findViewById(R.id.menu);
         chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
                 openlive();
             }
         });
-        menu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openMenu();
-            }
-        });
+//        menu.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                openMenu();
+//            }
+//        });
     }
 
     private void openMenu() {
