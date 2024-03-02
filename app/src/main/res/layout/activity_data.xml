@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".data">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".data"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Soil Types"
+        android:textSize="27sp"
+        android:textAlignment="center"
+        android:layout_marginTop="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Red Sandy Loam Soil"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Black Cotton Soil "
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Red Loamy Soil"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Red Sandy Loam Soil"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Alluvial Soil"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crop Data"
+        android:textSize="27sp"
+        android:textAlignment="center"
+        android:layout_marginTop="25sp"/>
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rcv"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="3sp">
+       <ImageView
+           android:id="@+id/imgview"
+           android:layout_width="100sp"
+           android:layout_height="100sp"
+           android:layout_marginLeft="5sp"
+           android:layout_marginTop="5sp"/>
+       <TextView
+           android:id="@+id/cname"
+           android:layout_width="match_parent"
+           android:layout_height="100sp"
+           tools:text="CropName"
+           android:textSize="45sp"
+           android:textAlignment="center"
+           android:gravity="center"
+           />
+   </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesticides"
+        android:textSize="25sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/pest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="List of pesticides"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fertilizers"
+        android:textSize="25sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/fert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="List of fertilizers"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Irrigation Methods"
+        android:textSize="25sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/irri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="List of irrigation methods"
+        android:textSize="20sp"
+        android:layout_marginLeft="5sp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="3dp"/>
+</LinearLayout>

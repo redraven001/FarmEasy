@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void distData(View view) {
-        Intent intent=new Intent(this,dist_data.class);
+        Intent intent=new Intent(this,data.class);
         startActivity(intent);
     }
 }
