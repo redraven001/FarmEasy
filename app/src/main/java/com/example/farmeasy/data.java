@@ -28,8 +28,6 @@ public class data extends AppCompatActivity {
         item.add(new Item("Tomato"," Carbofuran and Imidacloprid","NPK (higher potassium)","Drip irrigation or furrow irrigation",R.drawable.timg));
         item.add(new Item("Turmeric","Carbofuran and Thiamethoxam","Organic manure, NPK","Drip irrigation or furrow irrigation",R.drawable.trimg));
         item.add(new Item("SoyaBean","Imidacloprid and Thiamethoxam","Balanced NPK","Drip irrigation or furrow irrigation",R.drawable.simg));
-
-
         RecyclerView rcv=findViewById(R.id.rcv);
         rcv.setLayoutManager(new LinearLayoutManager(this));
         rcv.setAdapter(new MyAdapter(getApplicationContext(),item));

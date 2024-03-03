@@ -16,7 +16,7 @@ public class chatbot extends AppCompatActivity {
         webView = findViewById(R.id.webview);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.chatbase.co/chatbot-iframe/1OZmP9srAAKQiJPROCoUG");
+        webView.loadUrl("https://www.chatbase.co/chatbot-iframe/6W70AS0tdpknsKvQf2s0A");
     }
     @Override
     public void onBackPressed() {
